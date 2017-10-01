@@ -5,6 +5,8 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<link type='text/css' rel='stylesheet' href='css/styles.css'>
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Roboto+Slab" rel="stylesheet">
 
 		<!-- css for lokesh dhakar lightbox -->
 		<link href='css/lightbox.css' type='text/css' rel='stylesheet'>
@@ -21,9 +23,9 @@
 		</div>
 
 		<section class='section section-light'>
-			<h2>Section One</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>About This Project</h2>
+			<p>This project is personal as much as it is professional. I love traveling. I love inspiring travel quotes. I love photography. So I've tied them all together into one beautiful (I hope) collection. It was so hard to reduce a continent to only six images, but I felt that was a good number, without asking too much of the viewer. All of these photos were taken either by myself or by my husband. No, I haven't been everywhere. But it's on my list &#128521; </p>
+			<p>The project primarily uses HTML5 and CSS3, although there is a bit of javascript in use for devices smaller than 660 pixels. I've also used the javascript library Lightbox, by Lokesh Dhakar. This enables the user to click an image for a larger view. They can then scroll through the images at this larger size if they choose. On devices smaller than 660 pixels, the gallery sections are initially collapsed so that the user is not forced to scroll forever. They can see the names of the continents and click the continent icon to expand the section. I hope that you will hire me, but I also hope that I have planted the seed of wanderlust in your mind.</p>
 		</section>
 
 <!--
@@ -35,127 +37,127 @@
 -->
 
 		<section class='continent section-dark'>
-			<h2>Europe <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>Europe <button class='expand-button'><img class='no-border continent-light' src='images/europe/europe-icon.png' alt='Europe Icon'></button></h2>
 			<blockquote>“Be fearless in the pursuit of what sets your soul on fire.”  ~Jennifer Lee</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
-					<a href='images/europe/copenhagen2.jpg' data-lightbox='gallery' data-title='Copenhagen, Denmark'><img src='images/europe/copenhagen2.jpg' alt='Copenhagen, Denmark'></a>
+				<div class='photo-container border-light'>
+					<a href='images/europe/copenhagen2.jpg' data-lightbox='gallery' data-title='Copenhagen, Denmark'><img src='images/europe/copenhagen2.jpg' alt='Nyhavn. Copenhagen, Denmark'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/europe/lisse.jpg' data-lightbox='gallery' data-title='Lisse, Netherlands'><img src='images/europe/lisse.jpg' alt='Lisse, Netherlands'></a>
+				<div class='photo-container border-light'>
+					<a href='images/europe/lisse.jpg' data-lightbox='gallery' data-title='Lisse, Netherlands'><img src='images/europe/lisse.jpg' alt='Field of flowers. Lisse, Netherlands'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/europe/santorini.jpg' data-lightbox='gallery' data-title='Santorini, Greece'><img src='images/europe/santorini.jpg' alt='Santorini, Greece'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/europe/russia2.jpg' data-lightbox='gallery' data-title='St. Petersburg, Russia'><img src='images/europe/russia2.jpg' alt='St. Petersburg, Russia'></a>
+				<div class='photo-container border-light'>
+					<a href='images/europe/russia2.jpg' data-lightbox='gallery' data-title='St. Petersburg, Russia'><img src='images/europe/russia2.jpg' alt='Painting of the Church of the Savior on Spilled Blood. St. Petersburg, Russia'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/europe/rome.jpg' data-lightbox='gallery' data-title='Rome, Italy'><img src='images/europe/rome.jpg' alt='Rome, Italy'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/europe/paris.jpg' data-lightbox='gallery' data-title='Paris, France'><img src='images/europe/paris.jpg' alt='Paris, France'></a>
+				<div class='photo-container border-light'>
+					<a href='images/europe/paris.jpg' data-lightbox='gallery' data-title='Paris, France'><img src='images/europe/paris.jpg' alt='View of Paris from the top of Notre Dame Cathedral. Paris, France'></a>
 				</div>
 			</div> <!-- end gallery -->
 			<button class='close-btn'>&times;</button>
 		</section>
 
 		<section class='continent'>
-			<h2>Africa <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>Africa <button class='expand-button'><img class='no-border' src='images/africa/africa-icon.png' alt='Africa Icon'></button></h2>
 			<blockquote>“Don’t listen to what they say. Go see.”  ~ Chinese Proverb</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
+				<div class='photo-container border-dark'>
 					<a href='images/africa/egypt.jpg' data-lightbox='gallery' data-title='Cairo, Egypt'><img src='images/africa/egypt.jpg' alt='The Sphynx in Cairo, Egypt'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/africa/tribalLadies.jpg' data-lightbox='gallery' data-title='Cairo, Egypt'><img src='images/africa/tribalLadies.jpg' alt='The Sphynx in Cairo, Egypt'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/africa/tribalLadies.jpg' data-lightbox='gallery' data-title='East Africa'><img src='images/africa/tribalLadies.jpg' alt='Tribal Women in East Africa'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/africa/elephants.jpg' data-lightbox='gallery' data-title='Cairo, Egypt'><img src='images/africa/elephants.jpg' alt='The Sphynx in Cairo, Egypt'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/africa/elephants.jpg' data-lightbox='gallery' data-title='Queen Elizabeth National Park, Uganda'><img src='images/africa/elephants.jpg' alt='Elephants in Queen Elizabeth National Park, Uganda'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/africa/gorilla.jpg' data-lightbox='gallery' data-title='Parc Nationale des Volcans, Rwanda.'><img src='images/africa/gorilla.jpg' alt='Parc Nationale des Volcans, Rwanda.'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/africa/gorilla.jpg' data-lightbox='gallery' data-title='Parc Nationale des Volcans, Rwanda.'><img src='images/africa/gorilla.jpg' alt='Gorilla in Parc Nationale des Volcans, Rwanda.'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/africa/acacia.jpg' data-lightbox='gallery' data-title=''><img src='images/africa/acacia.jpg' alt='The Sphynx in Cairo, Egypt'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/africa/acacia.jpg' data-lightbox='gallery' data-title='Acacia tree in Africa'><img src='images/africa/acacia.jpg' alt='An Acacia tree in Africa'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/africa/giraffe.jpg' data-lightbox='gallery' data-title='Cairo, Egypt'><img src='images/africa/giraffe.jpg' alt='The Sphynx in Cairo, Egypt'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/africa/giraffe.jpg' data-lightbox='gallery' data-title='Lake Nakuru National Park, Kenya'><img src='images/africa/giraffe.jpg' alt='Giraffes in Lake Nakuru National Park, Kenya'></a>
 				</div>
 			</div> <!-- end gallery -->
 			<button class='close-btn'>&times;</button>
 		</section>
 
 		<section class='continent section-dark'>
-			<h2>Asia <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>Asia <button class='expand-button'><img class='no-border continent-light' src='images/asia/asia-icon.png' alt='Asia Icon'></button></h2>
 			<blockquote>“Travel is fatal to prejudice, bigotry, and narrow-mindedness..." ~ Mark Twain</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
-					<a href='images/asia/siemreap2.jpg' data-lightbox='gallery' data-title='Angkor Wat, Cambodia'><img src='images/asia/siemreap2.jpg' alt='Angkor Wat, Cambodia'></a>
+				<div class='photo-container border-light'>
+					<a href='images/asia/siemreap2.jpg' data-lightbox='gallery' data-title='Angkor Wat, Cambodia'><img src='images/asia/siemreap2.jpg' alt='Angkor Wat at sunrise. Siem Reap, Cambodia'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/asia/prayerflags.jpg' data-lightbox='gallery' data-title='Prayer flags in Nepal'><img src='images/asia/prayerflags.jpg' alt='Prayer flags in Nepal'></a>
+				<div class='photo-container border-light'>
+					<a href='images/asia/prayerflags.jpg' data-lightbox='gallery' data-title='Prayer flags in Nepal'><img src='images/asia/prayerflags.jpg' alt='Prayer flags in Nepal, seen on the trek to Everest Base Camp'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/asia/palawan.jpg' data-lightbox='gallery' data-title='Palawan, Philippines'><img src='images/asia/palawan.jpg' alt='Palawan, Philippines'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/asia/india.jpg' data-lightbox='gallery' data-title='Varanasi, India'><img src='images/asia/india.jpg' alt='Varanasi, India'></a>
+				<div class='photo-container border-light'>
+					<a href='images/asia/india.jpg' data-lightbox='gallery' data-title='Varanasi, India'><img src='images/asia/india.jpg' alt='Sacred Rites in Varanasi, India'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/asia/israel1.jpg' data-lightbox='gallery' data-title='Jerusalem, Israel'><img src='images/asia/israel1.jpg' alt='Jerusalem, Israel'></a>
+				<div class='photo-container border-light'>
+					<a href='images/asia/israel1.jpg' data-lightbox='gallery' data-title='Jerusalem, Israel'><img src='images/asia/israel1.jpg' alt='The Western Wall. Jerusalem, Israel'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/asia/iran.jpg' data-lightbox='gallery' data-title='Isfahan, Iran'><img src='images/asia/iran.jpg' alt='Isfahan, Iran'></a>
+				<div class='photo-container border-light'>
+					<a href='images/asia/iran.jpg' data-lightbox='gallery' data-title='Esfahan, Iran'><img src='images/asia/iran.jpg' alt='Esfahan, Iran'></a>
 				</div>
 			</div> <!-- end gallery -->
 			<button class='close-btn'>&times;</button>
 		</section>
 
 		<section class='continent'>
-			<h2>Australia <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>Australia <button class='expand-button'><img class='no-border' src='images/australia/australia-icon.png' alt='Australia Icon'></button></h2>
 			<blockquote>“I travel not to cross countries off a list, but to ignite passionate affairs with destinations.” ~ Nyssa P. Chopra</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
+				<div class='photo-container border-dark'>
 					<a href='images/australia/operahouse.jpg' data-lightbox='gallery' data-title='Sydney Opera House, Australia'><img src='images/australia/operahouse.jpg' alt='Sydney Opera House, Sydney Austraila'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-dark'>
 					<a href='images/australia/koala.jpg' data-lightbox='gallery' data-title='Koala Bear in Australia'><img src='images/australia/koala.jpg' alt='Koala Bear in Austraila'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-dark'>
 					<a href='images/australia/bluemountains.jpg' data-lightbox='gallery' data-title='Blue Mountains, Australia'><img src='images/australia/bluemountains.jpg' alt='Blue Mountains, Austraila'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/australia/musicians.jpg' data-lightbox='gallery' data-title='Sydney, Australia'><img src='images/australia/musicians.jpg' alt='Sydney, Austraila'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/australia/musicians.jpg' data-lightbox='gallery' data-title='Sydney, Australia'><img src='images/australia/musicians.jpg' alt='Musicians in Sydney, Austraila'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/australia/surfer.jpg' data-lightbox='gallery' data-title='Bondi Beach, Australia'><img src='images/australia/surfer.jpg' alt='Bondi Beach, Austraila'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/australia/surfer.jpg' data-lightbox='gallery' data-title='Bondi Beach, Australia'><img src='images/australia/surfer.jpg' alt='Surfer walking along Bondi Beach, Austraila'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-dark'>
 					<a href='images/australia/sydney.jpg' data-lightbox='gallery' data-title='Sydney Harbor, Australia'><img src='images/australia/sydney.jpg' alt='Sydney Harbor, Austraila'></a>
 				</div>
 			</div> <!-- end gallery -->
@@ -163,32 +165,32 @@
 		</section>
 
 		<section class='continent section-dark'>
-			<h2>South America <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
-			<blockquote>“Travel is the only thing you buy that makes you richer”</blockquote>
+			<h2 class='continent-title'>South America <button class='expand-button'><img class='no-border continent-light' src='images/south-america/south-america-icon.png' alt='South America Icon'></button></h2>
+			<!-- <blockquote>“Travel is the only thing you buy that makes you richer”</blockquote> -->
 			<blockquote>“Traveling – it leaves you speechless, then turns you into a storyteller.”  ~Ibn Battuta</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/south-america/fitzroy.jpg' data-lightbox='gallery' data-title='Cerro Fitz Roy, Argentina'><img src='images/south-america/fitzroy.jpg' alt='Cerro Fitz Roy, Argentina'></a>
 				</div>
 				
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/south-america/llamas.jpg' data-lightbox='gallery' data-title='Bolivia, South America'><img src='images/south-america/llamas.jpg' alt='Llamas in Bolivia, South America'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/south-america/iguazu.jpg' data-lightbox='gallery' data-title='Iguazu Falls, Argentina'><img src='images/south-america/iguazu.jpg' alt='Iguazu Falls, Argentina'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/south-america/peru.jpg' data-lightbox='gallery' data-title='Cusco, Peru'><img src='images/south-america/peru.jpg' alt='Cusco, Peru'></a>
+				<div class='photo-container border-light'>
+					<a href='images/south-america/peru.jpg' data-lightbox='gallery' data-title='Cusco, Peru'><img src='images/south-america/peru.jpg' alt='Night shot of a church in Cusco, Peru'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/south-america/uyuni.jpg' data-lightbox='gallery' data-title='Uyuni, Bolivia'><img src='images/south-america/uyuni.jpg' alt='Uyuni, Bolivia'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/south-america/torres.jpg' data-lightbox='gallery' data-title='Torres Del Paine, Chile'><img src='images/south-america/torres.jpg' alt='Torres Del Paine, Chile'></a>
 				</div>
 
@@ -197,32 +199,32 @@
 		</section>
 
 		<section class='continent'>
-			<h2>Antarctica <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>Antarctica <button class='expand-button'><img class='no-border' src='images/antarctica/antarctica-icon.png' alt='Antarctica Icon'></button></h2>
 			<blockquote>“I am not the same, having seen the moon shine on the other side of the world.” ~ Mary Anne Radmacher</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
-					<a href='images/antarctica/penguins.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/penguins.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/penguins.jpg' data-lightbox='gallery' data-title='Cuverville Island, Antarctica'><img src='images/antarctica/penguins.jpg' alt='Penguins on Cuverville Island, Antarctica'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/antarctica/paradisebay.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/paradisebay.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/paradisebay.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/paradisebay.jpg' alt='Incredible scenery at Paradise Bay, Antarctica'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/antarctica/whale.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/whale.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/whale.jpg' data-lightbox='gallery' data-title='Wilhelmina Bay, Antarctica'><img src='images/antarctica/whale.jpg' alt='Whale watching in Wilhelmina Bay, Antarctica'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/antarctica/iceberg.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/iceberg.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/iceberg.jpg' data-lightbox='gallery' data-title='Pleneau Bay, Antarctica'><img src='images/antarctica/iceberg.jpg' alt='Icebergs in Pleneau Bay, Antarctica'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/antarctica/seal.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/seal.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/seal.jpg' data-lightbox='gallery' data-title='Near Petermann Island, Antarctica'><img src='images/antarctica/seal.jpg' alt='Close up shot of a seal near Petermann Island, Antarctica'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/antarctica/landscape.jpg' data-lightbox='gallery' data-title='Paradise Bay, Antarctica'><img src='images/antarctica/landscape.jpg' alt='Paradise Bay, Antarctica'></a>
+				<div class='photo-container border-dark'>
+					<a href='images/antarctica/landscape.jpg' data-lightbox='gallery' data-title='Lemaire Channel, Antarctica'><img src='images/antarctica/landscape.jpg' alt='Black and White landscape photo. Lemaire Channel, Antarctica'></a>
 				</div>
 
 			</div> <!-- end gallery -->
@@ -230,31 +232,31 @@
 		</section>
 
 		<section class='continent section-dark'>
-			<h2>North America <button class='button'><img class='no-border' src='images/europe/europe.png' alt='Europe Icon'></button></h2>
+			<h2 class='continent-title'>North America <button class='expand-button'><img class='no-border continent-light' src='images/north-america/north-america-icon.png' alt='North America Icon'></button></h2>
 			<blockquote>“A great way to learn about your country is to leave it.” ~Henry Rollins</blockquote>
 
 			<div class='gallery'>
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/north-america/chicago.jpg' data-lightbox='gallery' data-title='Chicago, Illinois'><img src='images/north-america/chicago.jpg' alt='Chicago, Illinois'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/north-america/sxm.jpg' data-lightbox='gallery' data-title='Maho Beach, Sint Maarten'><img src='images/north-america/sxm.jpg' alt='Maho Beach, Sint Maarten'></a>
+				<div class='photo-container border-light'>
+					<a href='images/north-america/sxm.jpg' data-lightbox='gallery' data-title='Maho Beach, Sint Maarten'><img src='images/north-america/sxm.jpg' alt='Air France flying over Maho Beach, Sint Maarten'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/north-america/cuba2.jpg' data-lightbox='gallery' data-title='Havana, Cuba'><img src='images/north-america/cuba2.jpg' alt='Havana, Cuba'></a>
+				<div class='photo-container border-light'>
+					<a href='images/north-america/cuba2.jpg' data-lightbox='gallery' data-title='Havana, Cuba'><img src='images/north-america/cuba2.jpg' alt='Musicians in Havana, Cuba'></a>
 				</div>
 
-				<div class='photo-container'>
-					<a href='images/north-america/cuba-sunset.jpg' data-lightbox='gallery' data-title='Cienfuegos, Cuba'><img src='images/north-america/cuba-sunset.jpg' alt='Cienfuegos, Cuba'></a>
+				<div class='photo-container border-light'>
+					<a href='images/north-america/cuba-sunset.jpg' data-lightbox='gallery' data-title='Cienfuegos, Cuba'><img src='images/north-america/cuba-sunset.jpg' alt='Sunset in Cienfuegos, Cuba'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/north-america/flower2.jpg' data-lightbox='gallery' data-title='Wildflowers in California'><img src='images/north-america/flower2.jpg' alt='Wildflowers in California'></a>
 				</div>
 
-				<div class='photo-container'>
+				<div class='photo-container border-light'>
 					<a href='images/north-america/haf.jpg' data-lightbox='gallery' data-title='Half Moon Bay, California'><img src='images/north-america/haf.jpg' alt='Half Moon Bay, California'></a>
 				</div>
 			</div> <!-- end gallery -->

@@ -54,6 +54,9 @@ body, html {
 	background: transparent;
 }
 
+
+
+/* ===================== Light/Dark Block Section Styling =============*/
 .section {
 	padding: 50px 80px;
 	text-align: center;
@@ -77,59 +80,44 @@ body, html {
 	padding: 20px;
 }
 
-/*=========================== FOOTER ===================================*/
+/* ============== Section Header and Blockquote =============================*/
 
-.footer-text {
-	border: 2px solid red;
-	position: absolute;
-	bottom: 10%;
-	width: 80%;
-	text-align: center;
-	font-size: 1.2rem;
-	letter-spacing: 4px;
-	background-color: rgba(17, 17, 17, .9);
-	color: white;
-	padding: 20px;
-	display: flex;
-}
-
-
-
-/*========================GALLERY IMAGES============================*/
-
-.gallery {
-	margin: 3rem auto 2rem auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	display: none;
-	gallery 1px solid pink;
-}
-
-img {
-	width: 98%;
-	max-width 100%;
-	border: 3px double #f4f4f4;
-}
-
-.photo-container {
-	margin-bottom: 1.5rem;
-}
-
-.photo-container:last-child {
+.continent-title {
+	font-family: 'Cormorant Upright', serif;
+	letter-spacing: 2px;
+	font-size: 2.1rem;
+	margin-right: 8px;
 	margin-bottom: 0;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+blockquote {
+	font-family: 'Cormorant Upright', serif;
+	font-size: 1.4rem;
+	letter-spacing: .6px;
+	font-weight: lighter;
+	margin-top: 1rem;
+	margin-top: .5rem;
+}
 
-/* ================================================================*/
+/* ======================= Continent Icons =========================== */
 
 .no-border { /* this is the continent icon */
 	margin-top: 10%;
+	padding: 5px;
 	border: none;
 	width: 75px;
 	height: 75px;
 }
 
-.button {
+.continent-light {
+	filter: invert(95%);
+}
+
+.expand-button {
 	margin-left: 8px;
 	cursor: pointer;
 	background-color #282e34;
@@ -140,28 +128,58 @@ img {
 	transition: .4s;
 }
 
-.button:hover, .button:focus {
-	background-color: #f4f4f4;
+.expand-button:hover, .expand-button:focus {
 	background-color: #63B4B4;
 }
 
-h2 {
-	margin-right: 8px;
+/*========================GALLERY IMAGES============================*/
+
+.gallery {
+	margin: 3rem auto 2rem auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	display: none;
+}
+
+img {
+	width: 98%;
+	max-width 100%;
+}
+
+.border-light img {
+	border: 3px double #f4f4f4;
+}
+
+.border-dark img {
+	border: 3px double #000;
+}
+
+.photo-container {
+	margin-bottom: 1.5rem;
+}
+
+.photo-container:last-child {
 	margin-bottom: 0;
-	margin-top: 0;
-	border 1px solid pink;
+}
+
+/*=========================== Footer ===================================*/
+
+.footer-text {
+	border: 2px solid red;
+	position: absolute;
+	bottom: 10%;
+	width: 80%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 100;
+	letter-spacing: 3.5px;
+	background-color: rgba(17, 17, 17, .9);
+	color: white;
+	padding: 20px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-blockquote {
-	border 1px solid blue;
-	margin-top: 1rem;
-	margin-top: .5rem;
-}
-
- .close-btn {
+.close-btn {
  	font-size: 1.6rem;
 	display: none;
 	background-color: #63B4B4;
@@ -172,9 +190,8 @@ blockquote {
 }
 
 .close-btn:hover, .close-btn:focus {
-	background-color: pink;
+	background-color: #ffe2e7;
 }
-
 
 /* =================== MEDIA QUERIES ========================= */
 
