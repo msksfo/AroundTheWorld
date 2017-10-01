@@ -1,0 +1,212 @@
+body, html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/*======================= Background Images ====================*/
+
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	opacity: .7;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url('../images/world-map.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pimg2 {
+	background-image: url('../images/background1.jpg');
+	min-height: 400px;
+}
+
+.pimg3 {
+	background-image: url('../images/footerimage2.jpg');
+	min-height: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+/*----------------------------------------------------------------*/
+
+.ptext {
+	position: absolute;
+	width: 60%;
+	text-align: center;
+	font-size: 1.2rem;
+	letter-spacing: 4px;
+	background-color: #7D6E86;
+	color: white;
+	padding: 20px;
+}
+
+.ptext .trans {
+	background: transparent;
+}
+
+.section {
+	padding: 50px 80px;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.continent {
+	text-align: center;
+	background-color #626262;
+	color white;
+	padding: 20px;
+}
+
+/*=========================== FOOTER ===================================*/
+
+.footer-text {
+	border: 2px solid red;
+	position: absolute;
+	bottom: 10%;
+	width: 80%;
+	text-align: center;
+	font-size: 1.2rem;
+	letter-spacing: 4px;
+	background-color: rgba(17, 17, 17, .9);
+	color: white;
+	padding: 20px;
+	display: flex;
+}
+
+
+
+/*========================GALLERY IMAGES============================*/
+
+.gallery {
+	margin: 3rem auto 2rem auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	display: none;
+	gallery 1px solid pink;
+}
+
+img {
+	width: 98%;
+	max-width 100%;
+	border: 3px double #f4f4f4;
+}
+
+.photo-container {
+	margin-bottom: 1.5rem;
+}
+
+.photo-container:last-child {
+	margin-bottom: 0;
+}
+
+
+/* ================================================================*/
+
+.no-border { /* this is the continent icon */
+	margin-top: 10%;
+	border: none;
+	width: 75px;
+	height: 75px;
+}
+
+.button {
+	margin-left: 8px;
+	cursor: pointer;
+	background-color #282e34;
+	background: none;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	transition: .4s;
+}
+
+.button:hover, .button:focus {
+	background-color: #f4f4f4;
+	background-color: #63B4B4;
+}
+
+h2 {
+	margin-right: 8px;
+	margin-bottom: 0;
+	margin-top: 0;
+	border 1px solid pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+blockquote {
+	border 1px solid blue;
+	margin-top: 1rem;
+	margin-top: .5rem;
+}
+
+ .close-btn {
+ 	font-size: 1.6rem;
+	display: none;
+	background-color: #63B4B4;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid pink;
+	border-radius: 10px;
+}
+
+.close-btn:hover, .close-btn:focus {
+	background-color: pink;
+}
+
+
+/* =================== MEDIA QUERIES ========================= */
+
+@media all and (min-width: 660px){
+	.gallery {
+		margin: 3rem 5rem 5rem 5rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1.5rem;
+	}
+
+	.photo-container {
+		margin-bottom: 0;
+	}
+
+	button, .no-border {
+		display: none;
+	}
+
+	h2 {
+		margin-right: 0;
+		margin-top: 19.92px;
+		margin-bottom: 19.92px;
+		text-align: center;
+	}
+
+	#close-btn {
+		display: none;
+	}
+	
+}
+
+
+
+
