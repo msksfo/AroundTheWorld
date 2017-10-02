@@ -10,6 +10,18 @@ for ( var i = 0; i < expandButton.length; i++){
 	});
 }
 
+
+/*
+
+for ( var i = 0; i < expandButton.length; i++){
+	expandButton[i].addEventListener('click', function(e){
+		this.parentNode.nextElementSibling.nextElementSibling.classList.toggle('active');
+		this.parentNode.nextElementSibling.nextElementSibling.nextElementSibling.classList.toggle('active');
+	});
+}
+
+*/
+
 for (var i = 0; i < closeButton.length; i++){
 	closeButton[i].addEventListener('click', function(e){
 		this.style.display = 'none';

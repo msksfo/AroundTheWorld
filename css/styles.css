@@ -13,7 +13,7 @@ body, html {
 	position: relative;
 	opacity: .7;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment fixed;
 }
 
 .pimg1 {
@@ -51,11 +51,6 @@ body, html {
 	color: white;
 	padding: 20px;
 }
-
-.ptext .trans {
-	background: transparent;
-}
-
 
 
 /* ===================== Light/Dark Block Section Styling =============*/
@@ -143,14 +138,15 @@ blockquote {
 
 .gallery {
 	margin: 3rem auto 2rem auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 	display: none;
+}
+
+.active {
+	display: block;
 }
 
 img {
 	width: 98%;
-	image-orientation: from-image;
 	max-width 100%;
 }
 
