@@ -4,6 +4,7 @@ body, html {
 	padding: 0;
 	height: 100%;
 	max-width: 1280px;
+	background-color: #f3fcfe;
 	
 }
 
@@ -34,7 +35,7 @@ body, html {
 .pimg3 {
 	background-image: url('../images/footerimage2.jpg');
 	min-height: 100%;
-	background-position: center;
+	background-position: center center;
 	display: flex;
 	justify-content: center;
 }
@@ -68,6 +69,11 @@ body, html {
 .section-light {
 	background-color: #f4f4f4;
 	color: #666;
+}
+
+.continent-section-light {
+	background-color #fcfcfc;
+	background-color: #fff;
 }
 
 .section-dark {
