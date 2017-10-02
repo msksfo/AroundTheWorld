@@ -3,6 +3,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	max-width: 1280px;
 }
 
 /*======================= Background Images ====================*/
@@ -145,10 +146,6 @@ img {
 	width: 98%;
 	image-orientation: from-image;
 	max-width 100%;
-}
-
-.flip {
-	transform rotate(180deg);
 }
 
 .border-light img {
