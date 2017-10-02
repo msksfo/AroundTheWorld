@@ -21,9 +21,11 @@ body, html {
 	background-size: cover;
 	background-position: center;
 	min-height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+	/* WHY DOESN'T THIS WORK for centering the quote ??????? */
+	display flex;
+	justify-content center;
+	align-items center;
 }
 
 .pimg2 {
@@ -42,6 +44,11 @@ body, html {
 /*----------------------------------------------------------------*/
 
 .ptext {
+	/* the next three lines center the quote. flexbox won't work. ????? */
+	margin: auto;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+
 	position: absolute;
 	width: 60%;
 	text-align: center;
