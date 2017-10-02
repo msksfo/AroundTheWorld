@@ -9,11 +9,10 @@ body, html {
 
 /*======================= Background Images ====================*/
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1, .pimg3 {
 	position: relative;
 	opacity: .7;
 	background-repeat: no-repeat;
-	background-attachment fixed; /* don't use this for mobile screens? */
 }
 
 .pimg1 {
@@ -21,26 +20,17 @@ body, html {
 	background-size: cover;
 	background-position: center;
 	min-height: 100%;
-
-	/* WHY DOESN'T THIS WORK for centering the quote ??????? */
-	display flex;
-	justify-content center;
-	align-items center;
 }
 
 .pimg3 {
 	background-image: url('../imagesCopy/footerimage2-copy.jpg');
 	min-height: 100%;
 	background-position: center center;
-
-	display flex;
-	justify-content center;
 }
 
 /*----------------------------------------------------------------*/
 
 .ptext {
-	/* the next three lines center the quote. flexbox won't work. ????? */
 	margin: auto;
 	top: 50%; left: 50%;
 	transform: translate(-50%,-50%);
@@ -125,7 +115,6 @@ blockquote {
 .expand-button {
 	margin-left: 8px;
 	cursor: pointer;
-	background-color #282e34;
 	background: none;
 	border: none;
 	outline: none;
@@ -150,7 +139,6 @@ blockquote {
 
 img {
 	width: 98%;
-	max-width 100%;
 }
 
 .border-light img {
@@ -176,9 +164,9 @@ img {
 	position: absolute;
 
 	margin: auto;
-	top: 80%; left: 50%;
+	top: 80%; 
+	left: 50%;
 	transform: translate(-50%,-50%);
-	bottom 10%;
 	width: 80%;
 
 	text-align: center;
