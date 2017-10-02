@@ -143,7 +143,12 @@ blockquote {
 
 img {
 	width: 98%;
+	image-orientation: from-image;
 	max-width 100%;
+}
+
+.flip {
+	transform rotate(180deg);
 }
 
 .border-light img {
