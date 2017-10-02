@@ -37,8 +37,9 @@ body, html {
 	background-image: url('../images/footerimage2.jpg');
 	min-height: 100%;
 	background-position: center center;
-	display: flex;
-	justify-content: center;
+
+	display flex;
+	justify-content center;
 }
 
 /*----------------------------------------------------------------*/
@@ -178,8 +179,13 @@ img {
 .footer-text {
 	border: 2px solid red;
 	position: absolute;
-	bottom: 10%;
+
+	margin: auto;
+	top: 80%; left: 50%;
+	transform: translate(-50%,-50%);
+	bottom 10%;
 	width: 80%;
+
 	text-align: center;
 	font-size: 1.2rem;
 	font-weight: 100;
@@ -207,6 +213,10 @@ img {
 /* =================== MEDIA QUERIES ========================= */
 
 @media all and (min-width: 660px){
+
+	.pimg1, .pimg2, .pimg3 {
+		background-attachment: fixed;
+	}
 	
 	.section {
 		padding: 50px 80px;
