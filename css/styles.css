@@ -3,8 +3,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	max-width: 1280px;
-	background-color: #f3fcfe;
+	background-color #f3fcfe;
 	
 }
 
@@ -205,10 +204,7 @@ img {
 /* =================== MEDIA QUERIES ========================= */
 
 @media all and (min-width: 660px){
-	body, html {
-		margin: 0 auto;
-	}
-
+	
 	.section {
 		padding: 50px 80px;
 	}
