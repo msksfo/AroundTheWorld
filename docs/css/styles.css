@@ -157,6 +157,12 @@ img {
 	margin-bottom: 0;
 }
 
+/*====================== Lightbox Images ===========================*/
+.not-active {
+ pointer-events: none;
+ cursor: default;
+}
+
 /*=========================== Footer ===================================*/
 
 .footer-text {
@@ -229,6 +235,11 @@ img {
 
 	#close-btn {
 		display: none;
+	}
+
+	.not-active {
+ 		pointer-events: auto;
+ 		cursor: pointer;
 	}
 	
 }

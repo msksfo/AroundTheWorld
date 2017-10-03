@@ -1,5 +1,7 @@
 var expandButton = document.querySelectorAll('.expand-button');
 var closeButton = document.querySelectorAll('.close-btn');
+var anchors = document.getElementsByTagName("a[data-lightbox='gallery']");
+var mq = window.matchMedia( "(max-width: 659px)" );
 
 var gallery = document.querySelectorAll('.gallery');
 
@@ -29,3 +31,15 @@ for (var i = 0; i < closeButton.length; i++){
 		window.scrollTo(0, this.parentNode.offsetTop);
 	});
 }
+
+
+
+
+
+
+
+
+
+
+
+
