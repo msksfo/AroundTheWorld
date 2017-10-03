@@ -27,6 +27,8 @@ for ( var i = 0; i < expandButton.length; i++){
 	});
 }
 
+
+
 for (var i = 0; i < closeButton.length; i++){
 	closeButton[i].addEventListener('click', function(e){
 		this.classList.toggle('active-btn');

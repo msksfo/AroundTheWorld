@@ -70,8 +70,6 @@ body, html {
 
 .continent {
 	text-align: center;
-	background-color #626262;
-	color white;
 	padding: 20px;
 }
 
@@ -133,7 +131,7 @@ blockquote {
 	display: none;
 }
 
-.active {
+.active { /* for toggling .gallery open/closed */
 	display: block;
 }
 
@@ -157,11 +155,12 @@ img {
 	margin-bottom: 0;
 }
 
-/*====================== Lightbox Images ===========================*/
-.not-active {
+/*====================== Lightbox Images =====================*/
+.not-active { /* disable lightbox for browser width < 660px */
  pointer-events: none;
  cursor: default;
 }
+
 
 /*=========================== Footer ===================================*/
 
@@ -170,7 +169,7 @@ img {
 	position: absolute;
 
 	margin: auto;
-	top: 80%; 
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 80%;
@@ -195,13 +194,13 @@ img {
 	border-radius: 10px;
 }
 
+.active-btn {
+	display: inline-block;
+}
+
 .close-btn:hover, .close-btn:focus {
 	background-color: #ffe2e7;
 }
-
-.active-btn {
-	display: inline-block;
-
 
 /* =================== MEDIA QUERIES ========================= */
 
@@ -245,8 +244,16 @@ img {
  		pointer-events: auto;
  		cursor: pointer;
 	}
-	
+
 }
+
+
+
+
+
+
+
+
 
 
 
