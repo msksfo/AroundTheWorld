@@ -208,6 +208,10 @@ img {
 	border-radius: 10px;
 }
 
+.active-btn {
+	display: inline-block;
+}
+
 .close-btn:hover, .close-btn:focus {
 	background-color: #ffe2e7;
 }

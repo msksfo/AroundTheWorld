@@ -199,6 +199,10 @@ img {
 	background-color: #ffe2e7;
 }
 
+.active-btn {
+	display: inline-block;
+
+
 /* =================== MEDIA QUERIES ========================= */
 
 @media all and (min-width: 660px){
