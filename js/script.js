@@ -6,19 +6,35 @@ var mq = window.matchMedia( "(max-width: 659px)" );
 
 var gallery = document.querySelectorAll('.gallery');
 
-/*
 
-for ( var i = 0; i < expandButton.length; i++){
-	expandButton[i].addEventListener('click', function(e){
-		this.parentNode.nextElementSibling.nextElementSibling.style.display = 'block';
-		this.parentNode.nextElementSibling.nextElementSibling.nextElementSibling.style.display = 'block';
-	});
+function expandPanel(arr1, arr2){
+	for ( let i = 0; i < expandButton.length; i++){
+		expandButton[i].addEventListener('click', function(){
+			arr1[i].classList.toggle('active');
+			arr2[i].classList.toggle('active-btn');
+		});
+	}
 }
 
-*/
+function closePanel(arr1){
+	for ( let i = 0; i < closeButton.length; i++){
+		closeButton[i].addEventListener('click', function(){
+			this.classList.toggle('active-btn');
+			arr1[i].classList.toggle('active');
+			window.scrollTo(0, this.parentNode.offsetTop);
+		})
+	}
+}
+
+expandPanel(gallery, closeButton);
+closePanel(gallery);
 
 
 
+
+
+
+/* this is the shitty version of the two functions above 
 
 for ( var i = 0; i < expandButton.length; i++){
 	expandButton[i].addEventListener('click', function(e){
@@ -38,18 +54,7 @@ for (var i = 0; i < closeButton.length; i++){
 }
 
 
-/*
-
-for (var i = 0; i < closeButton.length; i++){
-	closeButton[i].addEventListener('click', function(e){
-		this.style.display = 'none';
-		this.previousElementSibling.style.display = 'none';
-		window.scrollTo(0, this.parentNode.offsetTop);
-	});
-}
-
 */
-
 
 
 
